@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a11292c0-bdd7-42df-9289-e188c5d3fda3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_sun_activation_javax_activation_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.activation-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.mail-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Lab4/META-INF/Lab4.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/LogInfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/FunctionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menu/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Gem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Necklace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/AddToNecklaceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/DeleteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/DeleteFromNecklaceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/DeleteNecklaceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/InfoAboutGemsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/InfoAboutNecklaceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/InputGemCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/InputNecklaceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/SelectCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/SortCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/SortNecklaceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/GemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/NecklaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/SortService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Info.java" afterDir="false" />
-    </list>
+    <list default="true" id="a11292c0-bdd7-42df-9289-e188c5d3fda3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +215,7 @@
       <workItem from="1576292829491" duration="33893000" />
       <workItem from="1576525877698" duration="2492000" />
       <workItem from="1576608347271" duration="14674000" />
-      <workItem from="1576653395269" duration="5949000" />
+      <workItem from="1576653395269" duration="6220000" />
     </task>
     <servers />
   </component>
@@ -351,21 +300,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/menu/Runner.java</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/functions/Functions.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/functions/Functions.java</url>
-          <line>185</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/functions/Functions.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/functions/SendMail.java</url>

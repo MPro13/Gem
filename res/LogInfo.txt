@@ -1,0 +1,171 @@
+14/12/2019  05:13:48
+Start of the program.
+14/12/2019  05:18:35
+Attempt to add a gem.
+
+14/12/2019  05:21:43
+The gem was added through the keyboard.
+
+14/12/2019  05:23:15
+Attempt to input necklace.
+
+14/12/2019  05:25:10
+Necklace was inputted through the keyboard.
+
+14/12/2019  05:25:36
+Attempt to print information.
+
+14/12/2019  05:25:46
+Information was printed.
+
+14/12/2019  05:26:01
+Attempt to print information.
+
+14/12/2019  05:26:07
+Information was printed.
+
+14/12/2019  05:26:28
+Attempt to sort the gem's list.
+
+14/12/2019  05:26:28
+The gems' list was sorted.
+
+14/12/2019  05:26:45
+Attempt to add a gem.
+
+14/12/2019  05:27:52
+The gem was added through the keyboard.
+
+14/12/2019  05:28:16
+Attempt to get information about one of the necklaces.
+
+14/12/2019  05:28:36
+The information was get.
+
+14/12/2019  05:29:10
+Attempt to sort the gem's list.
+
+14/12/2019  05:29:10
+The gems' list was sorted.
+
+14/12/2019  05:30:41
+Attempt to delete necklace.
+
+14/12/2019  05:30:45
+Necklace was deleted.
+
+14/12/2019  05:31:01
+Attempt to print information by the parameters.
+
+14/12/2019  05:31:08
+Attempt to choose what to print by the parameters.
+
+14/12/2019  05:31:26
+Information was printed.
+
+14/12/2019  09:29:41
+Start of the program.
+14/12/2019  09:39:57
+Start of the program.
+14/12/2019  09:40:21
+Attempt to add gem to necklace.
+
+14/12/2019  09:40:31
+Attempt to get information about one of the necklaces.
+
+14/12/2019  09:40:42
+Attempt to sort the gem's list.
+
+14/12/2019  09:40:42
+The gems' list was sorted.
+
+14/12/2019  09:40:50
+Attempt to print information.
+
+14/12/2019  09:40:57
+Information was printed.
+
+14/12/2019  09:41:07
+Attempt to print information.
+
+14/12/2019  09:41:11
+Information was printed.
+
+14/12/2019  09:50:58
+Attempt to input necklace.
+
+14/12/2019  09:51:02
+Necklace was inputted through the keyboard.
+
+14/12/2019  09:51:07
+Attempt to get information about one of the necklaces.
+
+14/12/2019  09:51:09
+The information was get.
+
+14/12/2019  09:51:29
+Attempt to add gem to necklace.
+
+14/12/2019  09:51:32
+Gem was added to necklace.
+
+14/12/2019  09:51:42
+Attempt to get information about one of the necklaces.
+
+14/12/2019  09:51:44
+The information was get.
+
+14/12/2019  11:58:24
+Start of the program.
+14/12/2019  11:59:57
+Start of the program.
+14/12/2019  12:01:14
+Start of the program.
+14/12/2019  12:01:48
+Attempt to print information.
+
+14/12/2019  12:01:51
+Information was printed.
+
+18/12/2019  01:09:58
+Start of the program.
+18/12/2019  01:21:54
+Start of the program.
+18/12/2019  01:24:34
+Start of the program.
+18/12/2019  01:26:00
+Start of the program.
+18/12/2019  01:27:18
+Start of the program.
+18/12/2019  01:29:49
+End of the program.
+--------------------------------------------------
+18/12/2019  01:30:02
+Start of the program.
+18/12/2019  01:30:59
+End of the program.
+--------------------------------------------------
+18/12/2019  09:31:42
+Start of the program.
+18/12/2019  09:45:47
+Start of the program.
+18/12/2019  09:52:04
+Start of the program.
+18/12/2019  09:57:07
+Start of the program.
+18/12/2019  09:59:37
+Start of the program.
+18/12/2019  10:01:50
+Start of the program.
+18/12/2019  10:06:42
+Start of the program.
+18/12/2019  10:28:45
+Start of the program.
+18/12/2019  10:28:57
+Start of the program.
+18/12/2019  10:34:17
+Start of the program.
+18/12/2019  10:35:22
+Start of the program.
+18/12/2019  10:51:44
+Start of the program.

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a11292c0-bdd7-42df-9289-e188c5d3fda3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/SortService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/SortService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Choice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Choice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java" afterDir="false" />
-    </list>
+    <list default="true" id="a11292c0-bdd7-42df-9289-e188c5d3fda3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +228,7 @@
       <workItem from="1576653395269" duration="39005000" />
       <workItem from="1576784746820" duration="3546000" />
       <workItem from="1576833830825" duration="18222000" />
-      <workItem from="1576855589522" duration="331000" />
+      <workItem from="1576855589522" duration="573000" />
     </task>
     <servers />
   </component>

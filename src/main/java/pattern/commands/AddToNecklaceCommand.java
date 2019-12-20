@@ -12,6 +12,6 @@ public class AddToNecklaceCommand implements Command {
 
     @Override
     public void execute() {
-        menu.addToNecklace();
+        menu.addGemToNecklace();
     }
 }

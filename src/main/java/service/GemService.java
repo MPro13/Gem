@@ -1,110 +1,92 @@
 package service;
 
-import exceptions.EmptyListException;
 import exceptions.NotFoundException;
+import menu.Main;
 import model.Gem;
-import model.Necklace;
+import utils.ConsoleReader;
 import utils.Info;
 
-import java.io.*;
+import java.io.File;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Predicate;
 
 public class GemService {
-    private static Scanner scanner = new Scanner(System.in);
 
-    public static void storeNecklace(List<Necklace> necklaceList){
-
-        OutputStream ops = null;
-        ObjectOutputStream objOps = null;
-        Necklace necklace = necklaceList.get(0);
-        try {
-            ops = new FileOutputStream("Necklace.txt");
-            objOps = new ObjectOutputStream(ops);
-            objOps.writeObject(necklace);
-            objOps.flush();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally{
-            try{
-                if(objOps != null) objOps.close();
-            } catch (Exception ex){
-
-            }
-        }
-    }
+    private static Scanner fileScanner;
 
     public static List<Gem> inputGem(List<Gem> gemList) {
         Gem gem = new Gem();
         System.out.println("Choose one of the options:\n\t1) Input data;\n\t2) Get data from file;");
-        Scanner scanner = new Scanner(System.in);
-        int option = scanner.nextInt();
-        /*
-         * add input from file
-         * */
+        String buff;
+        int option =  ConsoleReader.inputNaturalNumber();
         if (option == 1) {
             System.out.println("Enter the name of the gem:");
-            gem.setName(scanner.next());
+            gem.setName(ConsoleReader.inputLine());
             System.out.println("Enter the gem's weight:");
-            gem.setWeight(scanner.nextInt());
+            gem.setWeight( ConsoleReader.inputNaturalNumber());
             System.out.println("Enter the gem's price:");
-            gem.setPrice(scanner.nextInt());
+            gem.setPrice( ConsoleReader.inputNaturalNumber());
             System.out.println("Enter the gem's transparency:");
-            gem.setTransparency(scanner.nextInt());
+            int transparency = ConsoleReader.inputNaturalNumber();
+            gem.setTransparency( ConsoleReader.checkTransparency( transparency ) );
             gemList.add(gem);
+            Main.logger.info( "Gem " + gem.getName() + " was added through the console" );
+        } else if (option == 2) {
+            try {
+                fileScanner = new Scanner( new File( "res//1.txt" ) );
+            } catch (Exception e) {
+                Main.logger.error( "File with gems info wasn't found" );
+                e.printStackTrace();
+            }
+            do {
+                buff = fileScanner.next();
+                Gem newGem = new Gem();
+                newGem.setName( buff );
+                newGem.setWeight( fileScanner.nextInt() );
+                newGem.setPrice( fileScanner.nextInt() );
+                newGem.setTransparency( fileScanner.nextInt() );
+                gemList.add( newGem );
+                Main.logger.info( "Gem " + newGem.getName() + " was added from file" );
+            } while (fileScanner.hasNextLine());
+            return gemList;
+        } else {
+            return gemList;
         }
         return gemList;
     }
 
-//    public static List<Gem> inputGemToNecklace(Necklace necklace) {
-////        System.out.println("Enter the name of necklace you want to input gem in:");
-////        String name = scanner.nextLine();
-////        Necklace necklace = NecklaceService.findNecklace(necklaceList, name);
-//        List <Gem> gemList = GemService.inputGem(necklace.getGemList());
-//        necklace.getGemList().add(gemList.get(gemList.size()-1));/*???*/
-//        return gemList;
-//    }
-
     static Gem findGem(List<Gem> gemList, String name) {
+
         if(gemList.size() == 0){
             System.out.println("Gem list is empty");
+            Main.logger.warn( "Gem list was empty" );
             inputGem(gemList);
-      /**/     // throw new EmptyListException("Gem list is empty");
+            return gemList.get( 0 );
         }
 
         for (Gem value : gemList) {
             if (value.getName().equals(name)) {
+                Main.logger.info( "Gem " + name + " was found" );
                 return value;
-            }else inputGem(gemList);
+            }
         }
-
+        Main.logger.warn( "Gem " + name + " wasn't found" );
+        inputGem( gemList );
         return gemList.get(gemList.size()-1);
     }
 
     public static List<Gem> deleteGem(List<Gem> gemList) {
         Info.printInfoAboutGems(gemList);
         System.out.println("Enter the gem's name you want to delete:");
-        String name = scanner.next();
+        String name = ConsoleReader.inputLine();
         Predicate<Gem> condition = gem -> gem.getName().equals(name);
         boolean result = gemList.removeIf(condition);
         if (!result) {
-            throw new NotFoundException("Gem was not found of deleted");
+            Main.logger.error( "Called NotFoundException, gem wasn't deleted" );
+            throw new NotFoundException( "Gem " + name + " was not found of deleted" );
         }
+        Main.logger.info( "Gem " + name + " was deleted" );
         return gemList;
     }
-
-    public static List<Necklace> deleteGemFromNecklace(List<Necklace> necklaceList) {
-        System.out.println("Enter the name of necklace you want to delete gem in:");
-        String name = scanner.nextLine();
-        Necklace necklace = NecklaceService.findNecklace(necklaceList, name);
-      //  boolean result;
-        deleteGem(necklace.getGemList());
-        return necklaceList;
-    }
-
 }
-
-

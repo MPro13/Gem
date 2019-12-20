@@ -1,24 +1,21 @@
 package utils;
 
+import menu.Main;
+
 import java.util.Scanner;
 
 public class ConsoleReader {
-    private static Scanner sc;
-    public ConsoleReader(Scanner sc) {
-        ConsoleReader.sc = sc;
-    }
+    private static Scanner scanner = new Scanner( System.in );
 
     public static int inputNaturalNumber() {
+        // Scanner scanner = new Scanner(System.in);
         while (true) {
-            //      System.out.println("Input natural number:");
-            //  if (Scanner.hasNextInt()) {
-            int n = sc.nextInt();
+            int n = scanner.nextInt();
             if (isNaturalNumber(n)) {
                 return n;
             }
-            //   }
             System.out.println("Incorrect data! You entered not a natural number!");
-            sc.nextLine();
+            scanner.nextLine();
         }
     }
 
@@ -36,29 +33,47 @@ public class ConsoleReader {
     public int inputIntegerNumber() {
         while (true) {
             System.out.println("Input integer number:");
-            if (sc.hasNextInt()) {
-                int n = sc.nextInt();
+            if (scanner.hasNextInt()) {
+                int n = scanner.nextInt();
                 return n;
             }
             System.out.println("Incorrect data! You entered not a integer number!");
-            sc.nextLine();
+            scanner.nextLine();
         }
     }
 
     public double inputDoubleNumber() {
         while (true) {
             System.out.println("Input double number(use ','):");
-            if (sc.hasNextDouble()) {
-                double d = sc.nextDouble();
+            if (scanner.hasNextDouble()) {
+                double d = scanner.nextDouble();
                 return d;
             }
             System.out.println("Incorrect data! You entered not a double number!");
-            sc.nextLine();
+            scanner.nextLine();
         }
+    }
+
+    public static String inputLine() {
+        String result = scanner.next();
+        return result;
     }
 
     private static boolean isNaturalNumber(int n) {
         return n > 0;
+    }
+
+    public static int checkTransparency(int transparency) {
+        int correctTransparency;
+        if (transparency < 0 || transparency > 100) {
+            Main.logger.warn( "Incorrect inputted transparency" );
+            System.out.println( "Transparency should be from 0 to 100\nInput correct:" );
+            correctTransparency = inputNaturalNumber();
+            checkTransparency( correctTransparency );
+        } else {
+            correctTransparency = transparency;
+        }
+        return correctTransparency;
     }
 }
 

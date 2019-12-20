@@ -12,6 +12,6 @@ public class InputGemCommand implements Command {
 
     @Override
     public void execute() {
-        menu.input();
+        menu.inputGem();
     }
 }

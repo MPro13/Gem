@@ -54,4 +54,5 @@ public class Choice {
         System.out.println("1 - gems      2 - necklaces\n");
         return scanner.nextInt();
     }
+
 }

@@ -43,7 +43,7 @@ public class SortService {
         high = scanner.nextInt();
         if (low == high) {
             System.out.println("The \"X\" value is the same as \"Y\"");
-            //return null;/*&&&&&*/
+            choose();
         }
         if (low > high) {
             int temp = low;
@@ -98,33 +98,29 @@ public class SortService {
         Gem bubble;
         for (int i = 0; i < gemList.size(); i++) {
             for (int j = 0; j < gemList.size() - 1; j++) {
-                if (gemList.get(j).getPrice() > gemList.get(j + 1).getPrice()) {
+                if (gemList.get(j).getTransparency() > gemList.get(j + 1).getTransparency()) {
                     bubble = gemList.get(j + 1);
                     gemList.set(j + 1, gemList.get(j));
                     gemList.set(j, bubble);
                 }
             }
         }
+        System.out.println("Gems were sorted by transparency ");
         return gemList;
     }
 
-    /*
-     * Create generic for bubble sort
-     * */
-
     public static List <Necklace> sortNecklace(List <Necklace> necklaceList) {
-        //   l1.CreateLogger("Attempt to sort the gem's list.\n");
         Necklace bubble;
         for (int i = 0; i < necklaceList.size(); i++)
             for (int j = 0; j < necklaceList.size() - 1; j++) {
-                necklaceList.get(j).count();/*???*/
+                necklaceList.get(j).count();
                 if (necklaceList.get(j).getPrice() > necklaceList.get(j + 1).getPrice()) {
                     bubble = necklaceList.get(j + 1);
                     necklaceList.set(j + 1, necklaceList.get(j));
                     necklaceList.set(j, bubble);
                 }
-
             }
+        System.out.println("Necklace were sorted by price");
         return necklaceList;
     }
 

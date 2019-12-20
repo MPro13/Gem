@@ -8,29 +8,24 @@ import service.SortService;
 import utils.Choice;
 import utils.Info;
 
-import javax.swing.*;
-import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 public class Menu {
 
     private static List <Gem> gemList = new ArrayList <>();
-    private static List <Necklace> necklaceList = new ArrayList <Necklace>();
+    private static List <Necklace> necklaceList = new ArrayList <>();
 
-    public void input() {
+    public void inputGem() {
         GemService.inputGem(gemList);
     }
 
-    public void infoAboutGems() {
-        Info.printInfoAboutGems(gemList);
-    }
-
-    public void inpNeck() {
+    public void addNecklace() {
         NecklaceService.createNecklace(necklaceList, Optional.empty());
     }
 
-    public void addToNecklace() {
-        //GemService.inputGemToNecklace(necklaceList);
+    public void addGemToNecklace() {
         NecklaceService.addGemToNecklace(gemList,necklaceList);
     }
 
@@ -38,12 +33,16 @@ public class Menu {
         GemService.deleteGem(gemList);
     }
 
-    public void delNeck() {
+    public void deleteNecklace() {
         NecklaceService.deleteNecklace(necklaceList);
     }
 
     public void deleteFromNecklace() {
-        GemService.deleteGemFromNecklace(necklaceList);
+        NecklaceService.deleteGemFromNecklace( necklaceList );
+    }
+
+    public void infoAboutGems() {
+        Info.printInfoAboutGems( gemList );
     }
 
     public void infoAboutNecklace() {
@@ -59,18 +58,10 @@ public class Menu {
     }
 
     public void sortNecklace() {
-        SortService.SearchNecklace(necklaceList);
-    }
-
-
-    /**/
-    public void Print() {
-        Info.printInfoAboutNecklaces(necklaceList);
+        SortService.sortNecklace( necklaceList );
     }
 
     public void storeNecklace() {
-        GemService.storeNecklace(necklaceList);
+        NecklaceService.storeNecklace( necklaceList );
     }
-
-    /*create custom exceptions*/
 }

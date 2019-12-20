@@ -12,6 +12,6 @@ public class DeleteNecklaceCommand implements Command {
 
     @Override
     public void execute() {
-        menu.delNeck();
+        menu.deleteNecklace();
     }
 }

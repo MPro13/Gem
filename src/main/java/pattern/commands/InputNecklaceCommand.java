@@ -13,6 +13,6 @@ public class InputNecklaceCommand implements Command {
     @Override
     public void execute()
     {
-        menu.inpNeck();
+        menu.addNecklace();
     }
 }

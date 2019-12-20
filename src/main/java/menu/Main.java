@@ -1,31 +1,24 @@
 package menu;
 
-import functions.Logger;
+import org.apache.log4j.Logger;
 
 import java.util.InputMismatchException;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.Handler;
 
 public class Main {
     static boolean exit = false;
-    private static Handler conH;
+    public static final Logger logger = Logger.getLogger( "GLOBAL" );
 
     public static void main(String[] args) {
-        conH = new ConsoleHandler();
-        Runner.logger.addHandler(conH);
-        Runner.logger.setUseParentHandlers(false);
-        Runner.logger.info("Start of the program.");
-        Logger logger = new Logger();
-        logger.CreateLogger("Start of the program.");
-        Runner runner = new Runner();
+        logger.info( "Program started." );
+
         do {
             try {
-                runner.opt();
+                Runner.option();
             } catch (InputMismatchException e) {
-                System.out.println("You've entered a bullshit!");
+                System.out.println( "Incorrect input. Try again!" );
+                logger.warn( "Incorrect input." );
             }
         } while (!exit);
-        logger.CreateLogger("End of the program.\n--------------------------------------------------");
-        Runner.logger.info("End of the program.");
+        logger.info( "Program finished.\n--------------------------------------------------" );
     }
 }

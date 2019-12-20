@@ -2,69 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11292c0-bdd7-42df-9289-e188c5d3fda3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mockito-extensions/org.mockito.plugins.MockMaker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/GemServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mockito-extensions/org.mockito.plugins.MockMaker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/utils/SendMail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/service/GemServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/LogInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/LogInfo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functions/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functions/SendMail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Necklace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Necklace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/Invoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/commands/AddToNecklaceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/AddToNecklaceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/commands/DeleteNecklaceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/DeleteNecklaceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/commands/InputGemCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/InputGemCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/commands/InputNecklaceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/InputNecklaceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/commands/StoreNecklaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/commands/StoreNecklaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/GemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/GemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/NecklaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/NecklaceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/SortService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/SortService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Choice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Choice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functions/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functions/SendMail$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functions/SendMail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menu/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Necklace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Necklace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pattern/Invoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pattern/Invoker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pattern/commands/AddToNecklaceCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pattern/commands/AddToNecklaceCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pattern/commands/DeleteNecklaceCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pattern/commands/DeleteNecklaceCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pattern/commands/InputGemCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pattern/commands/InputGemCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pattern/commands/InputNecklaceCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pattern/commands/InputNecklaceCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pattern/commands/StoreNecklaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pattern/commands/StoreNecklaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/GemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/GemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/NecklaceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/NecklaceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/SortService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/SortService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConsoleReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConsoleReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Info.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +63,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -235,9 +178,9 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Snowflake" />
-      <item itemvalue="JUnit.GemServiceTest.storeNecklace" />
       <item itemvalue="Application.EmailLogger" />
       <item itemvalue="Application.SendMail" />
+      <item itemvalue="JUnit.GemServiceTest.storeNecklace" />
     </list>
     <recent_temporary>
       <list>
@@ -291,7 +234,8 @@
       <workItem from="1576608347271" duration="14674000" />
       <workItem from="1576653395269" duration="39005000" />
       <workItem from="1576784746820" duration="3546000" />
-      <workItem from="1576833830825" duration="17428000" />
+      <workItem from="1576833830825" duration="18222000" />
+      <workItem from="1576855589522" duration="331000" />
     </task>
     <servers />
   </component>
@@ -351,17 +295,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java</url>
-          <line>69</line>
+          <line>68</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java</url>
-          <line>70</line>
+          <line>69</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/ConsoleReader.java</url>
-          <line>73</line>
+          <line>72</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

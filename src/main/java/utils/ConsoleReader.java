@@ -8,7 +8,6 @@ public class ConsoleReader {
     private static Scanner scanner = new Scanner( System.in );
 
     public static int inputNaturalNumber() {
-        // Scanner scanner = new Scanner(System.in);
         while (true) {
             int n = scanner.nextInt();
             if (isNaturalNumber(n)) {

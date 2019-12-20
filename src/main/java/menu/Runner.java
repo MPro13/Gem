@@ -2,16 +2,15 @@ package menu;
 
 import pattern.Invoker;
 import pattern.commands.*;
+import utils.ConsoleReader;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Runner {
-//    public static final Logger logger = Logger.getLogger("Functions class");
 
     public static void option() throws InputMismatchException {
         int option;
-        Scanner scanner = new Scanner(System.in);
         Menu menu = new Menu();
         Invoker invoker = new Invoker(
                 new InputGemCommand(menu),
@@ -34,7 +33,7 @@ public class Runner {
                     "7) Info about gems;\n\t\t8) Info about necklace;\n\t\t" +
                     "9) Select gems's by the parameters;\n\t\t10) Sort gems;\n\t\t" +
                     "11) Sort necklaces;\n\t\t12) Save necklace;\n\t\t13) Exit;" );
-            option = scanner.nextInt();
+            option = ConsoleReader.inputNaturalNumber();
             switch (option) {
                 case 1:
                     invoker.inputGem();

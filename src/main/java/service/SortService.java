@@ -2,14 +2,13 @@ package service;
 
 import model.Gem;
 import model.Necklace;
+import utils.ConsoleReader;
 import utils.Info;
 
 import java.util.List;
 import java.util.Scanner;
 
 public class SortService {
-
-    private static Scanner scanner = new Scanner(System.in);
 
     private static int low, high, option;
 
@@ -36,11 +35,11 @@ public class SortService {
     }
 
     private static void choose() {
-        option = scanner.nextInt();
+        option = ConsoleReader.inputNaturalNumber();
         System.out.println("Enter the min value:");
-        low = scanner.nextInt();
+        low = ConsoleReader.inputNaturalNumber();
         System.out.println("Enter the max value:");
-        high = scanner.nextInt();
+        high = ConsoleReader.inputNaturalNumber();
         if (low == high) {
             System.out.println("The \"X\" value is the same as \"Y\"");
             choose();
